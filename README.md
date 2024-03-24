@@ -21,7 +21,16 @@ In other words:*
 Nakon kloniranja ovog repozitorijuma, program se u terminalu pokreće na sledeći način:
 
 1. Najpre je potrebno da se pozicioniramo u odgovarajući direktorijum
+   
+[student@phones-air ~]$ cd Desktop/h20
 
-2. 
+3. Pokrenemo komandu:
+   
+[student@phones-air h20]$ gcc -o kompajliraniProgram h2o-kod.c
+
+3.A potom i komandu:
+
+[student@phones-air h20]$ ./kompajliraniProgram
+   
 
 
