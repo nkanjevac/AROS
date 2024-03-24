@@ -67,7 +67,7 @@ void* funkcijaVodonika() {
         sem_wait(&mutex);
         vodonik+=1;
 
-        if(vodonika>=2 && kiseonik>=1) {
+        if(vodonik>=2 && kiseonik>=1) {
 
             sem_post(&semVodonik);
             sem_post(&semVodonik);
@@ -89,7 +89,7 @@ void* funkcijaVodonika() {
 
 }
 
-main() {
+int main() {
 
     printf("Program počinje sa radom\n");
     
