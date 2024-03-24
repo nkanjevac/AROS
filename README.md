@@ -16,7 +16,7 @@ In other words:*
 
 *We don’t have to worry about matching the threads up explicitly; that is, the threads do not necessarily know which other threads they are paired up with. The key is just that threads pass the barrier in complete sets; thus, if we examine the sequence of threads that invoke bond and divide them into groups of three, each group should contain one oxygen and two hydrogen threads.*
 
-**POKRETANJE PROGRAMA**
+### POKRETANJE PROGRAMA
 
 Nakon kloniranja ovog repozitorijuma, program se u terminalu pokreće na sledeći način:
 
@@ -24,11 +24,11 @@ Nakon kloniranja ovog repozitorijuma, program se u terminalu pokreće na sledeć
    
 [student@phones-air ~]$ cd Desktop/h20
 
-3. Pokrenemo komandu:
+2. Pokrenemo komandu:
    
 [student@phones-air h20]$ gcc -o kompajliraniProgram h2o-kod.c
 
-3.A potom i komandu:
+3. A potom i komandu:
 
 [student@phones-air h20]$ ./kompajliraniProgram
    
