@@ -26,7 +26,7 @@ Nakon kloniranja ovog repozitorijuma, program se u terminalu pokreće na sledeć
 
 2. Pokrenemo komandu:
    
-[student@phones-air h20]$ gcc -o kompajliraniProgram h2o-kod.c
+[student@phones-air h20]$ make
 
 3. A potom i komandu:
 
